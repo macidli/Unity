@@ -4,6 +4,7 @@
 }
 .gradient {
    background: radial-gradient(circle,#00000000,#00000015, #00000055, #000000);
+   height:100%;
    z-index: 1;
 
 }
