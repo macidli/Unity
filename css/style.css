@@ -1,0 +1,161 @@
+.maindiv{
+   background:url('../img/bg_img.png') 50% 10%/cover;
+   min-height: 100vh;
+}
+.gradient {
+   background: radial-gradient(circle,#00000000,#00000015, #00000055, #000000);
+   z-index: 1;
+
+}
+
+#unity{
+   text-align: center;
+   display:flex;
+   flex-direction: column;
+  
+}
+#logo{
+   max-width:180px;
+   margin:0 auto;
+   padding:65px 0 0 0;
+}
+h1{
+   font-size: 1.8em;
+}
+h3{
+   padding-left:10px;
+}
+h4{
+   color:#fff;
+   padding:40px;
+   text-transform: capitalize;
+}
+h6{
+   color:#fff;
+}
+.games{
+   display:flex;
+   background-color:#000000b2;
+   margin-top:20px;
+   border-radius: 10px 10px 10px 10px;
+}
+.photos{
+   display:flex;
+   align-items: center;
+}
+
+.photos img{
+   height:85px;
+   width:65px;
+   border-radius: 10px 10px 10px 10px;
+}
+.text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   line-height: 1.2em;
+   color:#555;
+   text-align: left;
+   padding-left: 20px;
+   align-items: start;
+   
+}
+.text span:first-child{
+   display: inline-flex;
+   align-items: center;
+   color:#fa7346;
+   height: 100%;
+   font-size: 1.4em;
+}
+.pspan{
+   display:flex;
+}
+#discover{
+   display: flex;
+   padding:1em 0 0 1.5em;
+   color:#fff;
+}
+
+#flexform{
+   display:flex;
+   justify-content: center;
+   padding:30px 0;
+}
+
+#forms{
+   display:flex;
+   flex-direction: column;
+   background-color:#fff ;
+   min-height:560px;
+   border-radius: 20px;
+   width:95%;
+   padding:60px 35px;
+   position: relative;
+   
+}
+#position{
+   position: absolute;
+   right:40px;
+   top:40px;
+}
+#position img{
+   height:30px;
+   width: 30px;
+   border-radius: 50%;
+   box-shadow:  0px 0px 6px;
+   padding:5px;
+}
+#forms p{
+   padding-top:20px;
+   color:#555;
+   display:inline-flex;
+   span{
+      color:#6c89d3;
+      display:inline-block;
+      padding-left:15px;
+   }
+}
+form{
+   padding:40px 0;
+}
+label{color:#838292;}
+input{
+   display:block;
+   margin:15px 0;
+   width:100%;
+   background-color: #f5f5f5;
+   border:none;
+   height:30px;
+   border-radius: 5px;
+}
+.btn{
+   display:inline-flex;
+   justify-content: center;
+   align-items: center;
+   color:#fff;
+   width:100%;
+   height:40px;
+   border-radius: 10px;
+ 
+}
+.btn1{background-color:#6c5dd2;}
+.btn2{background-color:#1b77ff ;}
+#mid{
+   color:#838292;
+   padding-block:20px;
+}
+
+
+@media only screen and (min-width:768px){
+
+   .container{
+      max-width:1140px;
+      margin:auto;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 20px;
+   } 
+   #forms{width:400px;}
+  
+}
