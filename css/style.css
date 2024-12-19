@@ -1,7 +1,16 @@
 .maindiv{
    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5998774509803921) 16%, rgba(0,0,0,0.29175420168067223) 84%, rgba(0,0,0,0.8911939775910365) 100%),url('../img/bg_img.png') 50% 10%/cover;
    min-height: 100vh;
+<<<<<<< HEAD
    /* height:100%; */
+=======
+}
+.gradient {
+   background: radial-gradient(circle,#00000000,#00000015, #00000055, #000000);
+   height:100%;
+   z-index: 1;
+
+>>>>>>> 6cc545e63fbe8c320af5082c07ad748491d9bdf3
 }
 
 #unity{
@@ -146,5 +155,10 @@ input{
       padding: 20px;
    } 
    #forms{width:400px;}
+<<<<<<< HEAD
    #unity{margin:0;}
 }
+=======
+  
+}
+>>>>>>> 6cc545e63fbe8c320af5082c07ad748491d9bdf3
