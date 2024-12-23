@@ -9,6 +9,7 @@ figure, figcaption, footer, header, main, menu, nav, section {
 	border: 0;
 	font-size: 100%;
 	color: inherit;
+	font-family: sans-serif;
 }
 ul, menu { list-style: none; }
 table {	border-collapse: collapse; }

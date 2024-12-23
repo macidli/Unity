@@ -1,16 +1,6 @@
 .maindiv{
    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5998774509803921) 16%, rgba(0,0,0,0.29175420168067223) 84%, rgba(0,0,0,0.8911939775910365) 100%),url('../img/bg_img.png') 50% 10%/cover;
    min-height: 100vh;
-<<<<<<< HEAD
-   /* height:100%; */
-=======
-}
-.gradient {
-   background: radial-gradient(circle,#00000000,#00000015, #00000055, #000000);
-   height:100%;
-   z-index: 1;
-
->>>>>>> 6cc545e63fbe8c320af5082c07ad748491d9bdf3
 }
 
 #unity{
@@ -82,6 +72,17 @@ h6{
    padding:1em 0 0 1.5em;
    color:#fff;
 }
+#position span{
+   color:#000;
+   font-weight: 700;
+   box-shadow: 0 0 5px #000;
+   display:inline-flex;
+   justify-content: center;
+   align-items: center;
+   width:30px;
+   height: 30px;
+   border-radius: 50%;
+}
 
 #flexform{
    display:flex;
@@ -95,7 +96,7 @@ h6{
    background-color:#fff ;
    border-radius: 20px;
    width:400px;
-   padding:60px 35px; 
+   padding:40px 35px; 
 }
 
 #position{
@@ -112,7 +113,7 @@ h6{
    }
 }
 form{
-   padding:40px 0;
+   padding:20px 0;
 }
 label{color:#838292;}
 input{
@@ -155,10 +156,6 @@ input{
       padding: 20px;
    } 
    #forms{width:400px;}
-<<<<<<< HEAD
    #unity{margin:0;}
 }
-=======
-  
-}
->>>>>>> 6cc545e63fbe8c320af5082c07ad748491d9bdf3
+
